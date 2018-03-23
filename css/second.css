@@ -1,0 +1,164 @@
+
+
+/*************************/
+/****************************/
+/********MENU BARRA *****/
+header {
+	
+    width:100%;
+}
+
+nav {
+    
+	margin:20px auto;
+	max-width:1000px;
+	width:90%;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+	display:table;
+	width:100%;
+	background:#08172F;
+	position:relative;
+}
+
+	
+ nav > ul li {
+	display:table-cell;
+}
+
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#08172F;/*gris fondo*/
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+/**************************************************/
+nav > ul li a {
+	color:#FDBF02;/*letras*/
+	display:block;
+	line-height:20px;
+	background:#08172F;/*letras menu*/
+	padding:20px;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li a:hover {
+	background:#242B28;/*primer hover */
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#242B28;/***submenu color*//
+}
+
+
+
+nav > ul > li > a:hover > span {
+	top:0;
+}
+
+
+
+/*************************************************************/
+
+body{
+	
+	background:url(../img/BlackLightningT1C1-analisis/fondoImagen.jpg)#08172F;	
+    background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position: 95% 100px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+	color:#FDBF02;
+	font-family: 'Contrail One', cursive;
+	font-size:400%;
+	font-weight:bold;
+}
+a {
+	color:#FDBF02; 
+	background:#242B28;
+	text-decoration:none;
+}
+
+a:hover{
+	box-shadow:0px 2px 0px #242B28;
+}
+
+p a {
+	color:#FDBF02;
+	background:#242B28;
+	text-decoration:none;
+}
+p a:hover{
+	box-shadow:0px 2px 0px #242B28;
+}
+
+
+div {
+	
+	position: 30% 10000px;
+	width:50%;
+	background:#08172F;
+	margin:700px 50px;
+	padding:5px;
+	color:#FDBF02;/*amarillo black lihgtning*/
+	
+	
+}
+
+div > div {
+	width:100%;
+	margin:20px;
+	
+	/* display:line-block; */
+}
+
+footer {
+	top: 10px;
+	width: 100%;
+	height: 150px;
+	background: #242B28;
+	border-top: 10px solid #FDBF02;
+	bottom: 0;
+}
+
+h5 {
+	color:#FDBF02;
+	
+	font-size:100%;
+	position:center;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	
+}
+
+
+
+
+	
